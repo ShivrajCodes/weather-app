@@ -6,9 +6,7 @@
 }
 
 body {
-    background-image: url('images/bg.jpg'); 
-    background-size: cover; 
-    background-position: center; 
+    background-color: rgb(18, 120, 174); /* Set background color to violet */
 }
 
 .card{
@@ -110,4 +108,11 @@ body {
 
 .title {
     margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: white;
 }
